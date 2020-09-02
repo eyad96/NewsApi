@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/breakingNewsFragment"
+        android:title="Breking News"
+        android:icon="@drawable/ic_breaking_new"
+        />
+    <item
+        android:id="@+id/savingNewsFragment"
+        android:title="Saved News"
+        android:icon="@drawable/ic_favorite"
+
+        />
+    <item
+        android:id="@+id/searchNewsFragment"
+        android:title="BrekingNews"
+        android:icon="@drawable/ic_view_headline"
+        />
+</menu>

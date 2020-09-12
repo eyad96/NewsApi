@@ -1,13 +1,16 @@
-package com.google.eyad.newsapi.apiresponce
+package com.google.eyad.newsapi.models
 
 import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "artical"
+    tableName = "articles"
 )
 
 data class Article(
-    val id :Int? = null ,
+    @PrimaryKey(autoGenerate = true)
+
+    val id :Int? = null,
     val author: String,
     val content: String,
     val description: String,

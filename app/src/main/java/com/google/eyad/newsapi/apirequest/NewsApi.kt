@@ -1,6 +1,6 @@
 package com.google.eyad.newsapi.apirequest
 
-import com.google.eyad.newsapi.apiresponce.NewsResponce
+import com.google.eyad.newsapi.models.NewsResponce
 import com.google.eyad.newsapi.util.Constant.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

@@ -1,4 +1,4 @@
-package com.google.eyad.newsapi.apiresponce
+package com.google.eyad.newsapi.models
 
 data class Source(
     val id: Any,
